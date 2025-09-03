@@ -1,0 +1,9 @@
+https://github.com/aditff/project-app-bioskop-golang-homework-aditff.git
+
+echo "# project-app-bioskop-golang-homework-aditff" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aditff/project-app-bioskop-golang-homework-aditff.git
+git push -u origin main

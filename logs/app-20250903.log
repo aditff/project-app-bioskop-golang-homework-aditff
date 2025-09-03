@@ -1,0 +1,18 @@
+{"L":"INFO","timestamp":"2025-09-03T22:46:57.552+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"POST","path":"/api/v1/register","duration":"157.8699ms"}
+{"L":"ERROR","timestamp":"2025-09-03T22:48:31.952+0700","C":"adaptor/user.go:63","M":"error : ","error":"Key: 'LoginRequest.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"L":"INFO","timestamp":"2025-09-03T22:48:31.953+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"POST","path":"/api/v1/login","duration":"1.0907ms"}
+{"L":"ERROR","timestamp":"2025-09-03T22:49:01.196+0700","C":"adaptor/user.go:63","M":"error : ","error":"Key: 'LoginRequest.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"L":"INFO","timestamp":"2025-09-03T22:49:01.212+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"POST","path":"/api/v1/login","duration":"16.2046ms"}
+{"L":"WARN","timestamp":"2025-09-03T22:50:51.377+0700","C":"usecase/user.go:38","M":"Username already exists","username":"aditff"}
+{"L":"INFO","timestamp":"2025-09-03T22:50:51.377+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"POST","path":"/api/v1/register","duration":"16.461ms"}
+{"L":"WARN","timestamp":"2025-09-03T22:51:08.831+0700","C":"usecase/user.go:38","M":"Username already exists","username":"aditff"}
+{"L":"INFO","timestamp":"2025-09-03T22:51:08.832+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"POST","path":"/api/v1/register","duration":"1.1572ms"}
+{"L":"ERROR","timestamp":"2025-09-03T22:51:39.489+0700","C":"adaptor/user.go:63","M":"error : ","error":"Key: 'LoginRequest.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"L":"INFO","timestamp":"2025-09-03T22:51:39.489+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"POST","path":"/api/v1/login","duration":"0s"}
+{"L":"ERROR","timestamp":"2025-09-03T22:52:38.614+0700","C":"usecase/user.go:70","M":"Failed to save token","error":"pq: relation \"tokens\" does not exist"}
+{"L":"INFO","timestamp":"2025-09-03T22:52:38.614+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"POST","path":"/api/v1/login","duration":"83.7269ms"}
+{"L":"ERROR","timestamp":"2025-09-03T22:53:22.893+0700","C":"usecase/user.go:70","M":"Failed to save token","error":"pq: relation \"tokens\" does not exist"}
+{"L":"INFO","timestamp":"2025-09-03T22:53:22.895+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"POST","path":"/api/v1/login","duration":"90.5137ms"}
+{"L":"INFO","timestamp":"2025-09-03T22:56:02.073+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"GET","path":"/api/v1/cinemas","duration":"3.9468ms"}
+{"L":"ERROR","timestamp":"2025-09-03T22:56:30.238+0700","C":"repository/cinema.go:55","M":"error : ","error":"sql: no rows in result set"}
+{"L":"INFO","timestamp":"2025-09-03T22:56:30.238+0700","C":"middleware/logger.go:26","M":"HTTP Request","method":"GET","path":"/api/v1/cinemas/1","duration":"507.2µs"}
